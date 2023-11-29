@@ -10,7 +10,7 @@ if answer == "left":
     answer = input("You have reached a swamp. You can either walk around the swamp, which makes your journey longer, or you can walk through the unknown terrain. Which do you choose? (around or through) ").lower()
     
     if answer == "through":
-        answer = input("A bunch of critters that resemble leaches have attached to your legs and arms. You start to feel feint. Do you try to rip them off or ignore them and keep walking until you can find another solution? (rip or walk) ").lower()
+        answer = input("A bunch of critters that resemble leaches have attached to your legs and arms. You start to feel faint. Do you try to rip them off or ignore them and keep walking until you can find another solution? (rip or walk) ").lower()
         
         if answer == "rip":
              print("The critters release some sort of toxic compound into your blood stream as they're being ripped off. You die and lose. ")
